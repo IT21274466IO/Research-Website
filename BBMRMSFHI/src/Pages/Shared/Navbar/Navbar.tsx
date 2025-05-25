@@ -225,12 +225,12 @@ const Navbar = () => {
         <h3 style={{ marginLeft: '30px' }}>
             <Link className="navbar-h ms-5" to="/">
             <img
-            src="/get.png"
+            src="/bbmrmsfhi.png"
             style={{ height: '50px', width: '50px', borderRadius: '50%' }}
             alt="Smart Farm Security System Logo"
             className="logo-image me-3"
             />
-             FarmGuard
+             Medup
             </Link>
         </h3>
     </div>

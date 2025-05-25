@@ -1,66 +1,117 @@
-import React from 'react'
+import React from "react";
 
 function Methodology() {
-    return (
-        <section className="mt-5" id="Methodology">
-  <h1 className="text-center mb-5" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Methodology</h1>
-  <div className="container-fluid py-5" id="about">
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
-          <img
-            className="img-fluid rounded shadow"
-            style={{ maxHeight: '500px', maxWidth: '100%', objectFit: 'contain', marginRight:'100px'}}
-            src="/elephant.png"
-            alt="Elephant illustration for Smart Farm Security System"
-          />
-        </div>
-        <div className="col-lg-6">
-          <div className="methodology-content">
-            <p className="lead text-justify mb-4">
-              The proposed Smart Farm Security System consists of four main components:
-            </p>
-            <ol className="list-group list-group-numbered mb-4" style={{ fontWeight: 600 }}>
-              <li className="list-group-item border-0">Vibration-Based Animal Detection and Identification</li>
-              <li className="list-group-item border-0">Adaptive Sensitivity Calibration</li>
-              <li className="list-group-item border-0">Predictive Animal Movement and Early Warning System</li>
-              <li className="list-group-item border-0">Intelligent Species-Specific Deterrent System</li>
-            </ol>
-
-            <div className="component-section mb-4">
-              <h4 className="fw-bold">1. Vibration-Based Animal Detection and Identification</h4>
-              <p className="text-justify">
-                This component captures ground vibration signals using sensors placed around the farm. The signals are processed into spectrograms and analyzed with machine learning models (Support Vector Classifier and Convolutional Neural Networks). It provides real-time detection of animal types and estimates proximity to the farm boundary.
-              </p>
+  return (
+    <section className="mt-5" id="Methodology">
+      <h1
+        className="text-center mb-5"
+        style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}
+      >
+        Methodology
+      </h1>
+      <div className="container-fluid py-5" id="about">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
+              <img
+                className="img-fluid rounded shadow"
+                style={{
+                  maxHeight: "500px",
+                  maxWidth: "100%",
+                  objectFit: "contain",
+                  marginRight: "100px",
+                }}
+                src="/diagram.png"
+                alt="Elephant illustration for Smart Farm Security System"
+              />
             </div>
+            <div className="col-lg-6">
+              <div className="methodology-content">
+                <p className="lead text-justify mb-4">
+                  The proposed Blockchain-Based Medical Record Management System
+                  consists of four main components:
+                </p>
+                <ol
+                  className="list-group list-group-numbered mb-4"
+                  style={{ fontWeight: 600 }}
+                >
+                  <li className="list-group-item border-0">
+                    Blockchain-Integrated Medical Image Categorization and
+                    Secure Retrieval
+                  </li>
+                  <li className="list-group-item border-0">
+                    Voice-to-Text Transcription (NLP) and Conversational AI for
+                    Treatment Recommender
+                  </li>
+                  <li className="list-group-item border-0">
+                    AI-Driven Doctor Recommendation and Symptom Analysis
+                  </li>
+                  <li className="list-group-item border-0">
+                    Risk Categorization Predictive Models for Medical System
+                  </li>
+                </ol>
 
-            <div className="component-section mb-4">
-              <h4 className="fw-bold">2. Adaptive Sensitivity Calibration</h4>
-              <p className="text-justify">
-                This adjusts the sensitivity of vibration sensors dynamically based on environmental conditions (e.g., soil moisture, rain, wind). Supervised learning models were applied to tune sensor thresholds, developed using Python. ESP32 microcontrollers integrated with soil moisture and temperature sensors handled environmental data collection.
-              </p>
-            </div>
+                <div className="component-section mb-4">
+                  <h4 className="fw-bold">
+                    1. Blockchain-Integrated Medical Image Categorization and
+                    Secure Retrieval
+                  </h4>
+                  <p className="text-justify">
+                    This component classifies medical images such as MRI and
+                    X-rays into specific disease categories using a lightweight
+                    MobileNetV2 CNN model. Categorized images are securely
+                    stored and retrieved through blockchain technology, ensuring
+                    tamper-proof and decentralized access for healthcare
+                    providers.
+                  </p>
+                </div>
 
-            <div className="component-section mb-4">
-              <h4 className="fw-bold">3. Predictive Animal Movement and Early Warning System</h4>
-              <p className="text-justify">
-                Implemented using deep learning (Recurrent Neural Networks and Long Short-Term Memory models), this component forecasts potential animal intrusions. TensorFlow and Keras were used for training. Early warnings are sent to farmers via a mobile app built with React Native and Firebase Cloud Messaging.
-              </p>
-            </div>
+                <div className="component-section mb-4">
+                  <h4 className="fw-bold">
+                    2. Voice-to-Text Transcription (NLP) and Conversational AI
+                    for Treatment Recommender
+                  </h4>
+                  <p className="text-justify">
+                    This component leverages speech-to-text technologies to
+                    transcribe doctor-patient conversations. NLP models then
+                    extract structured medical information to generate
+                    personalized treatment and medication recommendations,
+                    improving clinical documentation and decision support.
+                  </p>
+                </div>
 
-            <div className="component-section">
-              <h4 className="fw-bold">4. Intelligent Species-Specific Deterrent System</h4>
-              <p className="text-justify">
-                This uses machine learning-driven decision logic to trigger deterrents (lights, predator sounds, vibrations) based on the detected species. Reinforcement learning optimizes actions over time. The backend uses FastAPI, with real-time control managed via Firebase integration with the mobile app.
-              </p>
+                <div className="component-section mb-4">
+                  <h4 className="fw-bold">
+                    3. AI-Driven Doctor Recommendation and Symptom Analysis
+                  </h4>
+                  <p className="text-justify">
+                    Using AI models, this module analyzes patient symptoms and
+                    offers personalized doctor recommendations and
+                    pre-appointment advice. It enhances patient preparedness and
+                    helps direct patients to the most suitable healthcare
+                    specialists.
+                  </p>
+                </div>
+
+                <div className="component-section">
+                  <h4 className="fw-bold">
+                    4. Risk Categorization Predictive Models for Medical System
+                  </h4>
+                  <p className="text-justify">
+                    This component integrates machine learning models to
+                    classify patient risk levels based on medical data and
+                    imaging reports. Blockchain ensures secure data integrity,
+                    while the model supports prioritization of patient care
+                    through accurate risk assessment.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-    )
+    </section>
+  );
 }
 
-export default Methodology
+export default Methodology;

@@ -19,16 +19,16 @@ const Footer = () => {
                                             marginRight: "10px",
                                             borderRadius: "50%"
                                             }}
-                                            src="/get.png"
+                                            src="/bbmrmsfhi.png"
                                             alt="Smart Farm Logo"
                                         />
-                                        SMART FARM SECURITY SYSTEM
+                                        Blockchain Based Medical Record Management System for Healthcare Institutions
                                         </h2>
 
                                 </div>
                                 <p className="card-text">
-                                    The main objective of the proposed Smart Farm 
-                                    security system is to provide farmters to protect their crops from animal attacks.
+                                    Develop a secure and efficient blockchain-based medical records management system. By integrating advanced technologies such as blockchain, machine learning, natural language processing, and image processing, the system will provide a comprehensive solution for efficient and secure medical data management.
+
                                 </p>
                                 <div className="social mt-2 mb-3">
                                     <i className="fa fa-facebook-official fa-lg" onClick={() => { window.location.replace("") }}></i>
@@ -43,10 +43,10 @@ const Footer = () => {
                         <div className="col-md-2 col-sm-2 col-xs-2">
                             <h5 className="heading">Team Members</h5>
                             <ul>
-                                <li>Yashodh Fernando</li>
-                                <li>Chanuka Weerasinghe</li>
-                                <li>Thilan Akmeemana</li>
-                                <li>Tharusha Hapuarachchi</li>
+                                <li>Lahiru Indusara</li>
+                                <li>Imantha Oshadha</li>
+                                <li>Chanuka Kashmira</li>
+                                <li>Tharaka Arawinda</li>
                             </ul>
                         </div>
                         <div className="col-md-2 col-sm-2 col-xs-2">
@@ -63,7 +63,7 @@ const Footer = () => {
                             <ul className="card-text">
                                 <li>SLIIT</li>
                                 <li>Malabe</li>
-                                <li>Kaduwela</li>
+                                <li>Sri Lanka</li>
                                 <li>076 6135565</li>
                             </ul>
                         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                     <div className="divider mb-4"> </div>
                     <div className="row" style={{ fontSize: "10px", textAlign: "center" }}>
                         <div>
-                            Designed and Developed by FarmGuard Team <br />
+                            Designed and Developed by 24-25J-280 Team<br />
                         </div>
                     </div>
                 </div>

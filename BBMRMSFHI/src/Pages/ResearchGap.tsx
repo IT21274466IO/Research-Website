@@ -9,17 +9,17 @@ function ResearchGap() {
                 <div className="work">
                     <i className="fas fa-search"></i>
                     <p className="work-heading">Identification & Classification</p>
-                    <p className="work-text">In the process of identifying and classifying the Smart Farm Security System project, key areas such as vibration-based animal detection, adaptive sensitivity calibration, predictive analytics, and species-specific deterrent strategies emerged as important aspects for improving farm protection against wildlife intrusions.</p>
+                    <p className="work-text">The system uses deep learning (MobileNetV2 CNN) to accurately classify medical images into multiple disease categories. NLP techniques extract critical medical entities from doctor-patient conversations, enabling precise identification of symptoms and diagnoses.</p>
                 </div>
                 <div className="work">
                     <i className="fas fa-chart-line"></i>
                     <p className="work-heading">Severity Assessment</p>
-                    <p className="work-text">Severity assessment refers to the process of evaluating the seriousness or potential impact of an event, issue, or situation. It plays a crucial role in areas such as system performance, security, agriculture, and risk management to prioritize appropriate actions.</p>
+                    <p className="work-text">Advanced AI models analyze both image data and extracted clinical information to predict risk levels (low, medium, high). This risk categorization supports timely clinical decisions by highlighting patients requiring urgent attention.</p>
                 </div>
                 <div className="work">
                     <i className="fas fa-comments"></i>
                     <p className="work-heading">Information Sharing</p>
-                    <p className="work-text">Information sharing involves the exchange or distribution of data, insights, or updates between individuals, groups, or systems. It ensures better communication, decision-making, and coordination across different sectors, including agriculture, technology, and community management.</p>
+                    <p className="work-text">Secure blockchain technology ensures tamper-proof storage and controlled access to medical records. Patients retain ownership of their data, while authorized healthcare providers can seamlessly retrieve and share records, enhancing interoperability and privacy.</p>
                 </div>
             </div>
         </section>

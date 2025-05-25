@@ -1,38 +1,68 @@
-import React from 'react'
+import React from "react";
 
 function ResearchProblem() {
-    return (
-        <section className='mt-1' id="Problem">
-            <h1 style={{ marginLeft: '8%' }}>Research Problem & Solution</h1>
-            <br /><br />
-            <div className="container-fluid " id="about">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <h5 style={{ fontWeight: '700' }} className='ms-3'>Proposed Problem</h5>
-                            <h5 style={{ fontWeight: '700', color: 'green' }} className='ms-3'>What are the current challenges faced by Farmers in Protecting Agricultural Lands from Wildlife Intrusions?</h5>
-                            <p style={{ textAlign: 'justify' }} className='ms-3 mt-4'>
-                            Current trends show that farmers rely heavily on traditional methods like fences, trenches, and manual patrolling, which are often costly, reactive, and ineffective in modern agricultural settings. These methods fail to provide early warnings, species identification, or real-time protection, leading to frequent crop damage and financial losses.
-
-                                <br /><br />
-                                How can technology help farmers by introducing smart solutions such as vibration detection, machine learning, and predictive alerts to improve security, reduce human-wildlife conflict, and promote sustainable agriculture?
-
-
-                            </p>
-                        </div>
-                        <div className="col-lg-6 pb-4 pb-lg-0">
-                            <iframe style={{ marginLeft: '5%' }} width="560" height="315" src="https://www.youtube.com/embed/W-0lSiV-H7k?si=Ai0uKvQySVG78eJB" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                        </div>
-                    </div>
-                    <h5 style={{ fontWeight: '700' }} className='ms-3 mt-3'>Proposed Solution</h5>
-                    <p style={{ textAlign: 'justify' }} className='ms-3 mt-4'>
-                    
-                    Through the Smart Farm Security System, we empower farmers to protect their lands from wildlife intrusions by using smart technologies like vibration sensing, machine learning, and predictive analytics. By combining traditional farming knowledge with modern technological solutions, we aim to build a proactive, real-time system that strengthens agricultural productivity, reduces crop losses, and promotes sustainable and secure farming practices.
-                    </p>
-                </div>
+  return (
+    <section className="mt-1" id="Problem">
+      <h1 style={{ marginLeft: "8%" }}>Research Problem & Solution</h1>
+      <br />
+      <br />
+      <div className="container-fluid " id="about">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <h5 style={{ fontWeight: "700" }} className="ms-3">
+                Proposed Problem
+              </h5>
+              <h5
+                style={{ fontWeight: "700", color: "green" }}
+                className="ms-3"
+              >
+                Is there a better way to handle patient medical records securely
+                and efficiently?{" "}
+              </h5>
+              <p style={{ textAlign: "justify" }} className="ms-3 mt-4">
+                Traditional healthcare record management systems face challenges
+                such as data breaches, unauthorized access, fragmented data
+                storage, poor interoperability, and inefficient clinical
+                documentation processes. These issues lead to compromised data
+                integrity, reduced diagnostic accuracy, and increased workload
+                for healthcare professionals.
+                <br />
+                <br />
+                Existing systems are time-consuming and impose a significant
+                administrative burden and digital records face cybersecurity
+                risks and require high costs and training.
+              </p>
             </div>
-        </section>
-    )
+            {/* <div className="col-lg-6 pb-4 pb-lg-0">
+              <iframe
+                style={{ marginLeft: "5%" }}
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/W-0lSiV-H7k?si=Ai0uKvQySVG78eJB"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              ></iframe>
+            </div> */}
+          </div>
+          <h5 style={{ fontWeight: "700" }} className="ms-3 mt-3">
+            Proposed Solution
+          </h5>
+          <p style={{ textAlign: "justify" }} className="ms-3 mt-4">
+            This research proposes a Blockchain-Based Medical Record Management
+            System that integrates AI-driven voice-to-text transcription, NLP
+            for automatic extraction of medical information, and deep learning
+            for image classification and risk prediction. By leveraging
+            blockchain’s decentralized and tamper-proof storage, the system
+            ensures secure, immutable medical data management. Additionally, the
+            solution improves workflow efficiency by automating clinical
+            documentation, supporting decision-making, and enabling seamless,
+            patient-controlled information sharing among healthcare providers.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default ResearchProblem
+export default ResearchProblem;

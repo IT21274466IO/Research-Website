@@ -16,8 +16,8 @@ const HomePage = (props: Props) => {
   return (
     <div>
       <div className="intro" id="home">
-        <h1 className="animate">SMART FARM SECURITY SYSTEM</h1>
-       
+        <h1 className="animate">Blockchain Based Medical Record Management System for Healthcare Institutions</h1>
+
       </div>
 
       <LiteratureSurvey />

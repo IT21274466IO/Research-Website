@@ -5,80 +5,80 @@ function Downloads() {
     const documents = [
         {
             name: 'Topic Assessment',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/document/d/1V3lsV5mIgbX9QURzJ8GIn63MeHZrzOM3/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1GtjSvNsOnAKp0AzWQB8NkCl9KoUEOy4T?usp=drive_link'
             
         },
         {
             name: 'Project Charter',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: ''
+            link: 'https://drive.google.com/drive/folders/1ZDyG58QuLf0EAO_WMok5ZS1drKtdiHU9?usp=drive_link'
         },
         {
             name: 'Project Proposal',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1I_ExrA41-lIeNZFwtscgeIi9sQCn0moc?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1hO5xyckOqH6QQxVUFB4Iayl0Xo9_b5mT?usp=drive_link'
         },
         {
             name: 'Status Documents I',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1t6QtZqTfOjWfkK5X4JKLr7SeYMeZ8_JQ?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1pnvChzWQk-9wSmf8w877ZxKaf_UsU0vf?usp=drive_link'
         },
         {
             name: 'Status Documents II',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1wBghtePY8ZYiWI0T14iFJCF5REba3EbP?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1lS2ofchTC5ZACKOe2gsxASrAcEQu2bm3?usp=drive_link'
             
         },
         {
             name: 'Research Paper',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/1sRxDIRRG_V93KU6NtwUn8Lz9A7sKx1h4?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1JFxOGj_9RF9AKbM2lA7n0oA8zIubZcR5?usp=drive_link'
         },
         {
             name: 'Final Report',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/18Xf5PLXMkXRAeHoNLYjihFvBWRwgiYHa?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/11tXbNvWesVb-5L8Klt5pp315bb15yaNi?usp=drive_link'
         },
         {
             name: 'Poster',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/file/d/1aM1OggETK-k2eUY08SMY1e6hQMON0Xw3/view?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1Stk-spaYzjD_LQE8OrZVlYyZtVpuLEI6?usp=drive_link'
         }
     ]
 
     const presentations = [
         {
             name: 'Project Proposal',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SU5kIvM2Ub1nnKRqA5W_1Hr8F9AFn2QQ/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1sH-ZUofyFg0Eg-UX3M-2H1ep5nbG8Dl3?usp=drive_link'
         },
         {
             name: 'Progress Presentation I',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SU5kIvM2Ub1nnKRqA5W_1Hr8F9AFn2QQ/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1ZfQI_YTdtve7sH47TVk-xYodE5fRoKNO?usp=drive_link'
         },
         {
             name: 'Progress Presentation II',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SBasgdnEifLM-qxqgrqrF-5sYOLFqjcn/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1rTODUwXREQl8ZNYgEEOQlk1kNh2l8rSy?usp=drive_link'
         },
         {
             name: 'Final Presentation',
-            submittionDate: '2023-09-28',
+            submittionDate: '2025-05-25',
             grouporindi: 'Group',
-            link: ''
+            link: 'https://drive.google.com/drive/folders/1Vop5sj9z5HWhK6jGObE-E1AO6f9q7yx4?usp=drive_link'
         }
     ]
 
