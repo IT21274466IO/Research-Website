@@ -84,7 +84,7 @@ function TechnologyUsed() {
                 className="card d-flex flex-column h-100 mb-4"
                 style={{ border: "0", marginLeft: "25%" }}
               >
-                <a className="img-card">
+                <a className="img-card" href="tecImg">
                   <img
                     src={technology?.image}
                     alt=""
