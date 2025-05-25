@@ -1,0 +1,112 @@
+/* Existing styles (unchanged) */
+.navbar-h {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.stickynav {
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    background: rgb(255, 255, 255);
+    position: fixed !important;
+    width: 100%;
+    z-index: 3 !important;
+    transition: 0.5s !important;
+    height: 70px !important;
+}
+
+.normalnav {
+    transition: 0.5s !important;
+}
+
+.textDark {
+    color: black !important;
+}
+
+.textWhite {
+    color: white !important;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    font-size: large;
+    border-bottom: 2px solid #000000;
+}
+
+.nav-link-a-text {
+    font-size: large;
+}
+
+/* Enhanced Styles */
+.navbar {
+    padding: 0 20px; /* Add padding for better spacing */
+    transition: all 0.5s ease; /* Smooth transition for all properties */
+}
+
+.navbar-h:hover {
+    color: #2ecc71; /* Green hover effect for brand text */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Style for navbar links */
+.nav-link {
+    color: #333; /* Dark gray for readability */
+    margin: 0 15px; /* Spacing between links */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+    color: #2ecc71; /* Green hover effect */
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+.nav-link.active {
+    color: #2ecc71; /* Match hover color for active link */
+    border-bottom: 2px solid #2ecc71; /* Green bottom border for active */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #ffffff; /* White background */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 0;
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover, .dropdown-item.active {
+    background-color: #2ecc71; /* Green background on hover/active */
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-h {
+        font-size: 1.5rem; /* Reduce font size on mobile */
+    }
+
+    .nav-link, .nav-link-a-text {
+        font-size: medium; /* Adjust font size for mobile */
+        margin: 0 10px; /* Reduce margin on mobile */
+    }
+
+    .stickynav {
+        height: 60px !important; /* Reduce height on mobile */
+    }
+
+    .dropdown-menu {
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+/* Optional: Add a subtle gradient to stickynav for more appeal */
+.stickynav {
+    background: linear-gradient(90deg, #ffffff, #f0f0f0); /* Light gradient */
+}
