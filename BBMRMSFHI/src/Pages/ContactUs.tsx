@@ -69,7 +69,7 @@ function ContactUs() {
                             </div>
 
                             {/* Submit button */}
-                            <button type="submit" className="btn btn-success mt-3" style={{ width: '100%' }}>Send Mail</button>
+                            <button type="submit" className="btn mt-3" style={{ width: '100%', backgroundColor: '#14919B', color: 'white' }}>Send Mail</button>
                         </form>
                     </div>
 

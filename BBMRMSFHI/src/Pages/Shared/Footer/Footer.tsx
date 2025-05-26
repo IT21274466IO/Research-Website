@@ -35,7 +35,7 @@ const Footer = () => {
                                     <i className="fa fa-instagram fa-lg" onClick={() => { window.location.replace("") }}></i>
                                     <i className="fa fa-twitter fa-lg" onClick={() => { window.location.replace("") }}></i>
                                     <i className="fa fa-linkedin-square fa-lg" onClick={() => { window.location.replace("") }}></i>
-                                    <i className="fa fa-github" onClick={() => { window.location.replace("") }}></i>
+                                    <i className="fa fa-github" onClick={() => { window.location.replace("https://github.com/IT21274466IO/BLOCKCHAIN-BASED-MEDICAL-RECORDS-MANAGAGMENT-SYSTEM") }}></i>
                                 </div>
                             </div>
                         </div>
