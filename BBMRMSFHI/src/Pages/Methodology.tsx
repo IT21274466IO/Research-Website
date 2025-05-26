@@ -3,26 +3,45 @@ import React from "react";
 function Methodology() {
   return (
     <section className="mt-5" id="Methodology">
-      <h1
-        className="text-center mb-5"
-        style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}
-      >
+      <h1 className="mb-5" style={{ marginLeft: "8%" }}>
         Methodology
       </h1>
       <div className="container-fluid py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
+            <div className="col-lg-6 pb-4 pb-lg-0 d-flex flex-column align-items-center">
               <img
-                className="img-fluid rounded shadow"
+                className="img-fluid rounded shadow mb-4"
                 style={{
-                  maxHeight: "500px",
+                  maxHeight: "300px",
+                  maxWidth: "70%",
+                  objectFit: "contain",
+                  marginRight: "100px",
+                }}
+                src="/doctor-1.png"
+                alt="Elephant illustration for Smart Farm Security System"
+              />
+              <img
+                className="img-fluid rounded shadow mb-4"
+                style={{
+                  maxHeight: "300px",
                   maxWidth: "100%",
                   objectFit: "contain",
                   marginRight: "100px",
                 }}
-                src="/diagram.png"
-                alt="Elephant illustration for Smart Farm Security System"
+                src="/nurse-3.png"
+                alt="Sensor illustration for Smart Farm Security System"
+              />
+              <img
+                className="img-fluid rounded shadow"
+                style={{
+                  maxHeight: "280px",
+                  maxWidth: "80%",
+                  objectFit: "contain",
+                  marginRight: "100px",
+                }}
+                src="/nurse-1.png"
+                alt="Deterrent system illustration for Smart Farm Security System"
               />
             </div>
             <div className="col-lg-6">
@@ -57,12 +76,12 @@ function Methodology() {
                     Secure Retrieval
                   </h4>
                   <p className="text-justify">
-                    This component classifies medical images such as MRI and
-                    X-rays into specific disease categories using a lightweight
-                    MobileNetV2 CNN model. Categorized images are securely
-                    stored and retrieved through blockchain technology, ensuring
-                    tamper-proof and decentralized access for healthcare
-                    providers.
+                    This component classifies medical images such as MRI Scans,
+                    CT Scans and X-rays into specific disease categories using a
+                    lightweight ResNet CNN model. Categorized images are
+                    securely stored and retrieved through blockchain technology,
+                    ensuring tamper-proof and decentralized access for
+                    healthcare providers.
                   </p>
                 </div>
 

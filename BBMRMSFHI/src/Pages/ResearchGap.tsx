@@ -9,7 +9,7 @@ function ResearchGap() {
                 <div className="work">
                     <i className="fas fa-search"></i>
                     <p className="work-heading">Identification & Classification</p>
-                    <p className="work-text">The system uses deep learning (MobileNetV2 CNN) to accurately classify medical images into multiple disease categories. NLP techniques extract critical medical entities from doctor-patient conversations, enabling precise identification of symptoms and diagnoses.</p>
+                    <p className="work-text">The system uses deep learning (Restnet CNN) to accurately classify medical images into multiple disease categories. NLP techniques extract critical medical entities from doctor-patient conversations, enabling precise identification of symptoms and diagnoses.</p>
                 </div>
                 <div className="work">
                     <i className="fas fa-chart-line"></i>

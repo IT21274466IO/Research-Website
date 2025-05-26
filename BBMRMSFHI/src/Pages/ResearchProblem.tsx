@@ -51,12 +51,14 @@ function ResearchProblem() {
           <p style={{ textAlign: "justify" }} className="ms-3 mt-4">
             This research proposes a Blockchain-Based Medical Record Management
             System that integrates AI-driven voice-to-text transcription, NLP
-            for automatic extraction of medical information, and deep learning
-            for image classification and risk prediction. By leveraging
+            for automatic extraction of medical information, deep learning for
+            image classification and risk prediction, and AI-driven symptom
+            analysis coupled with doctor recommendation. By leveraging
             blockchain’s decentralized and tamper-proof storage, the system
             ensures secure, immutable medical data management. Additionally, the
             solution improves workflow efficiency by automating clinical
-            documentation, supporting decision-making, and enabling seamless,
+            documentation, supporting decision-making, providing accurate doctor
+            recommendations based on symptom analysis, and enabling seamless,
             patient-controlled information sharing among healthcare providers.
           </p>
         </div>

@@ -45,7 +45,7 @@
 }
 
 .navbar-h:hover {
-    color: #2ecc71; /* Green hover effect for brand text */
+    color: #14919B; /* Green hover effect for brand text */
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
@@ -57,13 +57,13 @@
 }
 
 .nav-link:hover {
-    color: #2ecc71; /* Green hover effect */
+    color: #14919B; /* Green hover effect */
     transform: scale(1.05); /* Slight scale-up on hover */
 }
 
 .nav-link.active {
-    color: #2ecc71; /* Match hover color for active link */
-    border-bottom: 2px solid #2ecc71; /* Green bottom border for active */
+    color: #14919B; /* Match hover color for active link */
+    border-bottom: 2px solid #14919B; /* Green bottom border for active */
 }
 
 /* Dropdown menu styling */
@@ -82,7 +82,7 @@
 }
 
 .dropdown-item:hover, .dropdown-item.active {
-    background-color: #2ecc71; /* Green background on hover/active */
+    background-color: #14919B; /* Green background on hover/active */
     color: white !important;
 }
 
